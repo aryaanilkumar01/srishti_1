@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let password=document.myform.password.value;
+        if(password.length<6){alert="password must be 6 characters long"
+        }else{
+            alert="atleast 6 letter"
+        }
+            
+        
+    </script>
+</head>
+<body>
+    <form name="myform">
+        UserName<input type="text" value="UserName" name="UserName"><br>
+        Password<input type="password"  name="password"><br>
+        Email<input type="email" value="Enter your email" name="email"><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
